@@ -1,0 +1,7 @@
+F:
+cd Files/Java Projects/LWJGLTextRenderingLibrary/src/text/font
+x86_64-w64-mingw32-gcc -I"C:\Program Files\Java\jdk1.8.0_192\include" -I"C:\Program Files\Java\jdk1.8.0_192\include\win32" -I"F:\Files\Libraries\freetype-2.10.0\include" -L"F:\Files\Libraries\freetype-2.10.0\binaries" -shared -o FontAtlasGenerator.dll text_font_FontAtlasGenerator.c -lfreetype
+
+F:
+cd Files/Java Projects/LWJGLTextRenderingLibrary/bin
+javah text.font.FontAtlasGenerator
